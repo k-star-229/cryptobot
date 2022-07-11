@@ -1,0 +1,21 @@
+
+.table {
+    @apply rounded-3xl;
+
+    thead {
+        background-color: #303F50;
+
+        tr th{
+            @apply p-2 py-4 font-medium;
+        }
+    }
+
+    
+    tbody {
+        background-color: #263240;
+
+        tr td{
+            @apply p-2;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.n-container {
+  @apply max-w-[1280px] m-auto w-[90%];
+}
+
+
+.bg-primary {
+  background-color: #263240;
+}
+
+.bg-secondary {
+  background-color: #1F2630;
+}
+
+.bg-third {
+  background-color: #171E26;
+}
+
+.text-subTitle {
+  @apply font-bold text-center text-white text-3xl;
+}

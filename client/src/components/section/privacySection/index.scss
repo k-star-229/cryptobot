@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.privacy {
+    li {
+        ul {
+            margin-left: 20px;
+            li {
+                margin-left: 30px;
+            }
+        }
+    }
+}
+
+
+.header1 {
+    span {
+        @apply bg-[#263240] px-3 ; 
+    }
+    @apply text-4xl font-medium pt-14;
+}
+
+.subHeader1 {
+    span {
+        @apply bg-[#263240] px-2; 
+    }
+    @apply text-2xl font-medium pt-8;
+}
+
+.text1 {
+    @apply mt-3 text-xl;
+    margin-left: 60px;
+}
